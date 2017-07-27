@@ -1,0 +1,76 @@
+h2
+{
+    text-align: center;
+    font-size: 24px;
+}
+hr
+{
+    margin-bottom: 30px;
+}
+div.container
+{
+    height: 560px;
+    width: 410px;
+    margin: 100px auto;
+    font-family: 'Droid Serif', serif;
+    position: relative;
+}
+div.main
+{
+    width: 320px;
+    float:left;
+   /* border:15px solid black;*/
+    border-shadow: 0 0 10px;
+    padding: 10px 45px 40px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: rgba(123,222,123,0.55);
+   /* background-image: url("klogoBig.png");*/
+}
+input[type=email],[type=password]
+{
+    width: 97.7%;
+    height: 34px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #4f4f4f;
+    box-shadow: 0 0 10px #00f5ff;
+    border: 2px solid #00f5ff;
+}
+label
+{
+    color: #000000;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+p
+{
+    color: midnightblue;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+a
+{
+    color : black;
+}
+#login
+{
+    font-size: 20px;
+    margin-top: 15px;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    padding: 7px 35px;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+}
+#login:hover{
+    background: linear-gradient(midnightblue 5%, #000000 100%);
+}
